@@ -25,6 +25,7 @@
         "interface-over-type-literal": false,
         "jsx-no-multiline-js": false,
         "no-var-requires": false,
+        "no-string-literals": false,
         "no-console": false
     }
   }
