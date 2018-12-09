@@ -27,6 +27,7 @@
         "no-var-requires": false,
         "no-string-literals": false,
         "jsx-boolean-value": false,
+        "no-submodule-imports": false,
         "no-console": false
     }
   }
