@@ -28,6 +28,7 @@
         "no-string-literals": false,
         "jsx-boolean-value": false,
         "no-submodule-imports": false,
+        "no-implicit-dependencies": false,
         "no-console": false
     }
   }
