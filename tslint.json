@@ -20,6 +20,12 @@
                 }
             }
         ],
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "check-format",
+            "allow-leading-underscore"
+        ],
         "member-ordering": false,
         "no-unused-expression": false,
         "interface-over-type-literal": false,
