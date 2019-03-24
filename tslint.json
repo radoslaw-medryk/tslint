@@ -1,41 +1,42 @@
 {
-    "extends": ["tslint:latest", "tslint-react"],
-    "rules": {
-        "semicolon": [true, "always"],
-        "interface-name": false,
-        "ordered-imports": false,
-        "object-literal-sort-keys": false,
-        "arrow-parens": [true, "ban-single-arg-parens"],
-        "object-literal-shorthand": [true, "never"],
-        "trailing-comma": [
-            true,
-            {
-                "multiline": {
-                    "arrays": "always",
-                    "objects": "always",
-                    "functions": "never",
-                    "imports": "always",
-                    "exports": "always",
-                    "typeLiterals": "always"
-                }
-            }
-        ],
-        "variable-name": [
-            true,
-            "ban-keywords",
-            "check-format",
-            "allow-leading-underscore",
-            "allow-pascal-case"
-        ],
-        "member-ordering": false,
-        "no-unused-expression": false,
-        "interface-over-type-literal": false,
-        "jsx-no-multiline-js": false,
-        "no-var-requires": false,
-        "no-string-literals": false,
-        "jsx-boolean-value": false,
-        "no-submodule-imports": false,
-        "no-implicit-dependencies": false,
-        "no-console": false
-    }
+  "extends": ["tslint:latest", "tslint-react"],
+  "rules": {
+    "semicolon": [true, "always"],
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "object-literal-shorthand": [true, "never"],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": {
+          "arrays": "always",
+          "objects": "always",
+          "functions": "never",
+          "imports": "always",
+          "exports": "always",
+          "typeLiterals": "always"
+        }
+      }
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "member-ordering": false,
+    "no-unused-expression": false,
+    "interface-over-type-literal": false,
+    "jsx-no-multiline-js": false,
+    "no-var-requires": false,
+    "no-string-literals": false,
+    "jsx-boolean-value": false,
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": false,
+    "array-type": false,
+    "no-console": false
   }
+}
