@@ -1,11 +1,12 @@
 {
   "name": "@radoslaw-medryk/tslint",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "main": "tslint.json",
   "dependencies": {
-    "tslint-react": "^3.6.0"
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^5.0.0"
   },
   "peerDependencies": {
-    "tslint": "^5.11.0"
+    "tslint": "^6.1.2"
   }
 }
